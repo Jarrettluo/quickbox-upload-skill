@@ -1,0 +1,26 @@
+# QuickBox 配置示例
+# 复制此文件为 config.ini 并根据需要修改
+
+[DEFAULT]
+# API 地址
+api_url = http://localhost:8089
+
+# 取件码长度
+code_length = 6
+
+# 文件有效期 (天)
+retention_days = 7
+
+# 分片大小 (字节)
+chunk_size = 5242880
+
+[STORAGE]
+# 本地存储路径
+storage_path = ./uploads
+
+[REDIS]
+# Redis 配置
+redis_host = localhost
+redis_port = 6379
+redis_password =
+redis_database = 0
